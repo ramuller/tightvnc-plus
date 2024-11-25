@@ -139,7 +139,7 @@ TCLIBDIR =
         LIBMANDIR = $(MANSOURCEPATH)3
        FILEMANDIR = $(MANSOURCEPATH)5
 
-               AR = ar clq
+               AR = ar cq
   BOOTSTRAPCFLAGS =
                CC = gcc
                AS = as

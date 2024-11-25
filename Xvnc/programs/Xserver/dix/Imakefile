@@ -18,7 +18,6 @@ FFSL_OBJ = ffsl.o
 #endif
 
 SRCS = atom.c colormap.c cursor.c devices.c dispatch.c dixutils.c events.c \
-	extension.c gc.c globals.c glyphcurs.c grabs.c \
 	main.c property.c resource.c swaprep.c swapreq.c \
 	tables.c window.c initatoms.c dixfonts.c privates.c pixmap.c $(FFS_SRC) \
         $(FFSL_SRC)
