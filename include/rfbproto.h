@@ -44,6 +44,7 @@
  *      messages have to be explained by comments.
  */
 
+Bool HandleCursorPos(int x, int y);
 
 /*****************************************************************************
  *

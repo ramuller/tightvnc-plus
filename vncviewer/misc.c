@@ -24,6 +24,7 @@
 #include <vncviewer.h>
 #include <signal.h>
 #include <fcntl.h>
+#include <sys/wait.h>
 
 static void CleanupSignalHandler(int sig);
 static int CleanupXErrorHandler(Display *dpy, XErrorEvent *error);
