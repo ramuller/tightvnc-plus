@@ -77,6 +77,9 @@ cfb can not hack PSZ yet
 #define CATNAME(prefix,subname) prefix/**/subname
 #endif
 
+#define cfbWindowPrivateIndex NAME(WindowPrivateIndex)
+#define cfbGCPrivateIndex NAME(GCPrivateIndex)
+#define cfbPuntCopyPlane NAME(PuntCopyPlane)
 #define cfbScreenPrivateIndex NAME(ScreenPrivateIndex)
 #define QuartetBitsTable NAME(QuartetBitsTable)
 #define QuartetPixelMaskTable NAME(QuartetPixelMaskTable)

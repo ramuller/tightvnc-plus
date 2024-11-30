@@ -93,7 +93,7 @@ XCOMM binutils:	(LinuxBinUtilsMajorVersion)
 	(LinuxCLibMajorVersion == 5 && LinuxCLibMinorVersion == 99)
 #define LinuxSourceDefines	-D_POSIX_C_SOURCE=199309L \
 				-D_POSIX_SOURCE -D_XOPEN_SOURCE=500L \
-				-D_BSD_SOURCE -D_SVID_SOURCE
+				-D_DEFAULT_SOURCE
 #define XawI18nDefines		-DHAS_WCHAR_H -DHAS_WCTYPE_H -DNO_WIDEC_H
 #if !defined(AlphaArchitecture)
 #define HasPosixThreads		YES
@@ -107,7 +107,7 @@ XCOMM binutils:	(LinuxBinUtilsMajorVersion)
 #endif
 #else
 #define LinuxSourceDefines	-D_POSIX_SOURCE \
-				-D_BSD_SOURCE -D_SVID_SOURCE -DX_LOCALE
+				-D_DEFAULT_SOURCE
 #define XawI18nDefines		-DUSE_XWCHAR_STRING -DUSE_XMBTOWC
 #ifndef HasLibCrypt
 #define HasLibCrypt		NO
